@@ -31,3 +31,9 @@ data.plot.scatter(x='title_year', y='gross')
 # budget vs gross
 data.plot.scatter(x='budget', y='gross')
 
+# Set up the matplotlib figure
+f, ax = plt.subplots(figsize=(12, 10))
+plt.title('Pearson Correlation of Movie Features')
+
+# Draw the heatmap using seaborn
+sns.heatmap(data.corr(),linewidths=0.25,vmax=1.0, square=True, cmap="YlGnBu", linecolor='black', annot=True)

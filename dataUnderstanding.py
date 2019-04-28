@@ -37,3 +37,9 @@ plt.title('Pearson Correlation of Movie Features')
 
 # Draw the heatmap using seaborn
 sns.heatmap(data.corr(),linewidths=0.25,vmax=1.0, square=True, cmap="YlGnBu", linecolor='black', annot=True)
+
+#  The heat map depicting a diagonal coordination indicated there may be a correlation in the data
+
+#  To show corellation polarity values with the 'gross'
+data.corr()['gross'].sort_values(ascending=False)  
+

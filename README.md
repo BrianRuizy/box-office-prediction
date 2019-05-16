@@ -15,9 +15,12 @@ Program will undergo this pipeline:
 * SciKit-learn
 
 ## Pipeline
-### Cleaning
+* ### Cleaning
 At this step we want to remove records that will give us inaccuracies in our results. For instance whenever we have duplicates in the data, or places where we have null & zero values. We proceed by performing the following code...
 ```python
 data = data.drop_duplicates(subset=['move_title', 'title_year'], keep='first').copy()
 data.isnull().values.any()
 ```
+
+* ### Understanding
+* ### ML Models

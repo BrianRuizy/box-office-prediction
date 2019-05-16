@@ -1,4 +1,4 @@
-# box-office-prediction
+# box-office-prediction 🎬🍿💰
 Machine learning project using a large historical dataset to find the patterns which contribute to a films 'success'.
 
 ## About

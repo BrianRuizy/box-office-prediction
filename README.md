@@ -4,7 +4,7 @@ Machine learning project using a large historical dataset to find the patterns w
 ## About
 This learning project aims at exploring the use of an official Cinema dataset by reading, writing, cleaning and then implementing a Machine Learning model to be trained and predict the success of a movie release. Success can be measured by various different parameters; this program aims at finding relationships between those parameters and consider what makes a movie "succesful". Will then compare the accuracy of both *linear Regression* against *Random Forest Regression*. 
 
-Program will undergo this pipeline:
+Program will undergo this implicit pipeline:
 **Cleaning phase** -> **Understanding data** -> **Prediction Models** -> **post-fact data**
 
 ## Dependencies
@@ -21,6 +21,7 @@ At this step we want to remove records that will give us inaccuracies in our res
 data = data.drop_duplicates(subset=['move_title', 'title_year'], keep='first').copy()
 data.isnull().values.any()
 ```
-
 * ### Understanding the Data
+Here we use matplotlib and numpy to further explore the data set and gain an understanding of the plots. Having done so we can find positive or negative correlations between variables, or find other valubale insights.
+<img src="https://github.com/BrianRuizy/box-office-prediction/blob/master/images/boxoffice-understandingData.png" > </img>
 * ### ML Models

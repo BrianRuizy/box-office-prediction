@@ -8,11 +8,11 @@ Program will undergo this pipeline:
 **Cleaning phase** -> **Understanding data** -> **Prediction Models** -> **post-fact data**
 
 ## Dependencies
-* NumPy 
-* Pandas 
-* Matplotlib
-* Seaborn 
-* SciKit-learn
+Tools include: [Pandas](https://pandas.pydata.org/), 
+[Matplotlib](https://matplotlib.org/), 
+[Numpy](https://www.numpy.org/)
+[Seaborn](https://seaborn.pydata.org/)
+[SciKit-Learn](https://scikit-learn.org/stable/)
 
 ## Data Pipeline
 * ### Data Cleansing

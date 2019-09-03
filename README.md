@@ -1,6 +1,5 @@
 <h1 align="center">
-    <img alt="logo" title="br logo" src="https://github.com/BrianRuizy/portfolio-website-3.0/blob/master/Misc/BR%20logo%20blk.png" width="100"> </br>
-  Box Office Prediction 🎬🍿💰
+    <img alt="logo" title="br logo" src="https://github.com/BrianRuizy/portfolio-website-3.0/blob/master/Misc/BR%20logo%20blk.png" width="100"> </br> Box Office Prediction 
 </h1>
 
 <h4 align="center">

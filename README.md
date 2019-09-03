@@ -1,5 +1,11 @@
-# Box Office Prediction 🎬🍿💰
+<h1 align="center">
+    <img alt="logo" title="br logo" src="https://github.com/BrianRuizy/portfolio-website-3.0/blob/master/Misc/BR%20logo%20blk.png" width="100"> </br>
+  Box Office Prediction 🎬🍿💰
+</h1>
+
+<h4 align="center">
 Machine learning project using a large historical dataset to find the patterns which contribute to a films 'success'.
+</h4>
 
 ## About
 This learning project aims at exploring the use of an official Cinema dataset by reading, writing, cleaning and then implementing a Machine Learning model to be trained and predict the success of a movie release. Success can be measured by various different parameters; this program aims at finding relationships between those parameters and consider what makes a movie "succesful". Will then compare the accuracy of both *linear Regression* against *Random Forest Regression*. 

@@ -6,6 +6,8 @@
 Machine learning project using a large historical dataset to find the patterns which contribute to a films 'success'.
 </h4>
 
+![](https://camo.githubusercontent.com/d0f65430681b67b7104f6130ada8c098ec5f66ba/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f636f64652532307374796c652d7374616e646172642d627269676874677265656e2e7376673f7374796c653d666c6174)
+
 ## About
 This learning project aims at exploring the use of an official Cinema dataset by reading, writing, cleaning and then implementing a Machine Learning model to be trained and predict the success of a movie release. Success can be measured by various different parameters; this program aims at finding relationships between those parameters and consider what makes a movie "succesful". Will then compare the accuracy of both *linear Regression* against *Random Forest Regression*. 
 

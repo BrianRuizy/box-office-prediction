@@ -27,6 +27,6 @@ data = data.drop_duplicates(subset=['move_title', 'title_year'], keep='first').c
 data.isnull().values.any()
 ```
 * ### Understanding the Data
-Here we use matplotlib and numpy to further explore the data set and gain an understanding of the plots. Having done so we can find positive or negative correlations between variables, or find other valubale insights.
+Here we use matplotlib and pandas to further explore the data set and gain an understanding of the plots. Having done so we can find positive or negative correlations between variables, or find other valubale insights.
 <img src="https://github.com/BrianRuizy/box-office-prediction/blob/master/images/boxoffice-understandingData.png" > </img>
 * ### ML Models

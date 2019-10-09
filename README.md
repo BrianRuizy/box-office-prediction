@@ -2,9 +2,7 @@
     <img alt="logo" title="br logo" src="https://github.com/BrianRuizy/portfolio-website-3.0/blob/master/Misc/BR%20logo%20blk.png" width="100"> </br> Box Office Prediction 
 </h1>
 
-<h4 align="center">
-Machine learning project using a large historical dataset to find the patterns which contribute to a films 'success'.
-</h4>
+
 
 ![](https://camo.githubusercontent.com/d0f65430681b67b7104f6130ada8c098ec5f66ba/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f636f64652532307374796c652d7374616e646172642d627269676874677265656e2e7376673f7374796c653d666c6174)
 
